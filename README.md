@@ -2,6 +2,10 @@
 
 Convert your reStructuredText into HTML using `rst2html` in Visual Studio Code
 
+## Installation
+
+Clone repo into your VS Code extension directory
+
 ## How to Use
 
 - Open the command pallette `ctrl+shift+p`
