@@ -4,7 +4,7 @@
     "description": "Compile reStructuredText into HTML in Visual Studio Code",
     "version": "0.0.1",
     "private": true,
-    "publisher": "Anonymous",
+    "publisher": "BokaSolutions",
     "engines": {
         "vscode": "^1.28.0"
     },
