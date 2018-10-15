@@ -36,7 +36,7 @@
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
-  "respository": "https://github.com/wboka/vscode-rst2html",
+  "repository": "https://github.com/wboka/vscode-rst2html",
   "devDependencies": {
     "typescript": "^2.6.1",
     "vscode": "^1.1.6",
