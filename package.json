@@ -1,49 +1,50 @@
 {
-    "name": "vscode-rst2html",
-    "displayName": "reStructuredText 2 HTML",
-    "description": "Compile reStructuredText into HTML in Visual Studio Code",
-    "version": "0.0.1",
-    "private": true,
-    "publisher": "BokaSolutions",
-    "engines": {
-        "vscode": "^1.28.0"
-    },
-    "license": "MIT",
-    "categories": [
-        "Other"
-    ],
-    "activationEvents": [
-        "onCommand:extension.convertrST2html"
-    ],
-    "main": "./out/extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.convertrST2html",
-                "title": "Convert rST 2 HTML"
-            }
-        ]
-    },
-    "keywords": [
-        "reStructuredText",
-        "HTML",
-        "convert"
-    ],
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "tslint": "^5.8.0",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
-    },
-    "dependencies": {
-        "rst2html": "^1.0.4"
-    }
+  "name": "vscode-rst2html",
+  "displayName": "reStructuredText 2 HTML",
+  "description": "Compile reStructuredText into HTML in Visual Studio Code",
+  "version": "0.0.1",
+  "private": true,
+  "publisher": "BokaSolutions",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.convertrST2html"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.convertrST2html",
+        "title": "Convert rST 2 HTML"
+      }
+    ]
+  },
+  "keywords": [
+    "reStructuredText",
+    "HTML",
+    "convert"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "respository": "https://github.com/wboka/vscode-rst2html",
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.6",
+    "tslint": "^5.8.0",
+    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "rst2html": "^1.0.4"
+  }
 }
