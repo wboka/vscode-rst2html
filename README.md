@@ -1,5 +1,13 @@
 # reStructuredText 2 HTML
 
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/bokasolutions.vscode-rst2html.svg)](https://marketplace.visualstudio.com/items?itemName=bokasolutions.rst2html)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/bokasolutions.vscode-rst2html.svg)](https://marketplace.visualstudio.com/items?itemName=bokasolutions.rst2html)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/bokasolutions.vscode-rst2html.svg)](https://marketplace.visualstudio.com/items?itemName=bokasolutions.rst2html)
+
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wboka/vscode-rst2html.svg)](https://isitmaintained.com/project/wboka/vscode-rst2html "Average time to resolve an issue")
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/wboka/vscode-rst2html.svg)](https://isitmaintained.com/project/wboka/vscode-rst2html "Percentage of issues still open")
+
+
 Convert your reStructuredText into HTML using `rst2html` in Visual Studio Code
 
 ## Installation
