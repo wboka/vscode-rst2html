@@ -39,6 +39,10 @@ None
 
 ## Release Notes
 
+### 0.0.2
+
+Removes unused vulnerable `flatmap-stream` reference
+
 ### 0.0.1
 
 Initial release of **reStructured 2 html**
