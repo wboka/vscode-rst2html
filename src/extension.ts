@@ -10,7 +10,11 @@ export function activate(context: ExtensionContext) {
 
     if (editor) {
       if (!/restructuredtext/i.test(editor.document.languageId)) {
-        window.showWarningMessage(`No reStructuredText file active. This is a "${editor.document.languageId}" file.`);
+        window.showWarningMessage(
+          `No reStructuredText file active. This is a "${
+            editor.document.languageId
+          }" file.`
+        );
 
         return;
       }
