@@ -2,6 +2,10 @@
 
 All notable changes to the "rst2html" extension will be documented in this file.
 
+## 0.1.0
+
+Remove vulnerability CVE-2018-20834
+
 ## 0.0.3
 
 - Adds simple icon
