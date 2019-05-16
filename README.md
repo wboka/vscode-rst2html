@@ -6,9 +6,9 @@
 
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/bokasolutions.vscode-rst2html.svg)](https://marketplace.visualstudio.com/items?itemName=bokasolutions.rst2html)
 
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wboka/vscode-rst2html.svg)](https://isitmaintained.com/project/wboka/vscode-rst2html "Average time to resolve an issue")
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wboka/vscode-rst2html.svg)](https://isitmaintained.com/project/wboka/vscode-rst2html 'Average time to resolve an issue')
 
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/wboka/vscode-rst2html.svg)](https://isitmaintained.com/project/wboka/vscode-rst2html "Percentage of issues still open")
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/wboka/vscode-rst2html.svg)](https://isitmaintained.com/project/wboka/vscode-rst2html 'Percentage of issues still open')
 
 [![GitHub license](https://img.shields.io/github/license/wboka/vscode-rst2html.svg)](https://github.com/wboka/vscode-rst2html/blob/master/LICENSE)
 
@@ -45,6 +45,10 @@ None
 - Requires a manual reload after changes
 
 ## Release Notes
+
+### 0.1.0
+
+Remove vulnerability CVE-2018-20834
 
 ### 0.0.3
 
